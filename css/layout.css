@@ -1,6 +1,15 @@
 .layout-cabecalho {
+	background-color: #fff;
 	height: 60px;
 	border-bottom: 1px solid #ccc;
+}
+
+.layout-cabecalho--home {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
 }
 
 .layout-cabecalho img {
@@ -12,6 +21,7 @@
 }
 
 .layout-chamada {
+	margin-top: 60px;
 	padding: 80px 0;
 	background-color: #7ab55c;
 }
